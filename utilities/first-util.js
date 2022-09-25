@@ -14,3 +14,6 @@ const sum = (arr) => {
 const concat = (arr1, arr2) => {
   return [...arr1, ...arr2];
 };
+
+exports.sum = sum;
+exports.concat = sum;

@@ -15,3 +15,7 @@ const cut3 = (arr) => {
   arr.splice(2, 1);
   return arr;
 };
+
+
+exports.lgNum = lgNum;
+exports.cut3 = cut3;
