@@ -16,4 +16,4 @@ const concat = (arr1, arr2) => {
 };
 
 exports.sum = sum;
-exports.concat = sum;
+exports.concat = concat;
