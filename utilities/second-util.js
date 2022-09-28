@@ -9,13 +9,13 @@ const lgNum = (arr) => {
   return largest;
 };
 
-
 // Remove the 3rd item from an array
 const cut3 = (arr) => {
   arr.splice(2, 1);
   return arr;
 };
 
-
-exports.lgNum = lgNum;
-exports.cut3 = cut3;
+module.exports = {
+  lgNum,
+  cut3,
+};

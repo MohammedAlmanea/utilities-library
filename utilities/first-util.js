@@ -8,12 +8,13 @@ const sum = (arr) => {
   return total;
 };
 
-
 // Concatenate two arrays
 
 const concat = (arr1, arr2) => {
   return [...arr1, ...arr2];
 };
 
-exports.sum = sum;
-exports.concat = concat;
+module.exports = {
+  sum,
+  concat,
+};
